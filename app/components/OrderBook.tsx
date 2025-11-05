@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import useBinanceSocket from "@/hooks/useBinanceSocket";
+import useBinanceSocket from "../hooks/useBinanceSocket";
 
 export default function OrderBook() {
   const { orderBook } = useBinanceSocket("btcusdt");

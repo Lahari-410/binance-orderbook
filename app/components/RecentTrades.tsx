@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
-import useBinanceSocket from "@/hooks/useBinanceSocket";
+// Without alias
+import useBinanceSocket from '../hooks/useBinanceSocket';
 
 export default function RecentTrades() {
   const { trades } = useBinanceSocket("btcusdt");
